@@ -1,0 +1,277 @@
+#bg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(./img/bg.jpg) no-repeat;
+    background-size: cover;
+    background: none\9;
+    *background: 0 0;
+}
+#aicon img{
+    position: fixed;
+    left: 70px;
+    top: 60px;
+    width: 124.4px;
+    height: 40px;
+    font-size: 12px;
+}
+#afont{
+    left: 195px;
+    top: 314px;
+   display: block;
+    position: fixed;
+    height: auto;
+    width: auto;
+}
+#afont h3{
+    color: #fff;
+    display: block;
+    font-size: 54px;
+    font-weight: 700;
+    margin-top: -1px;
+  letter-spacing: normal;
+}
+#afont p{
+    color: #fff;
+    display: block;
+    font-size: 32px;
+    font-weight: 300;
+     margin-top: -50px;
+    letter-spacing: 3.81px;
+}
+#cdi{
+    bottom: 57px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    left: 70px;
+    position: fixed;
+}
+.cspan{
+    font-size: 14px;
+}
+.clink{
+    cursor: pointer;
+    opacity: 0.8;
+    text-decoration: solid;
+    color: #fff;
+}
+.cl{
+    display: inline-block;
+    height: 12px;
+    margin-bottom: 0px;
+    margin-left: 13px;
+    margin-right: 12px;
+    margin-top: 0px;
+    opacity: 0.78;
+    position: relative;
+    top: 1px;
+    width: 2px;
+}
+
+.cimg{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(./img/service-2x.png) no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 4px;
+}
+.ctext
+{
+    opacity: .54;
+    font-size: 12px;
+    color: #fff;
+    display: inline-block;
+    padding-left: 30px;
+}
+#dcontent
+{
+    position: absolute;
+    right: 139px;
+    top: 320.5px;
+  margin-top: -259px;
+    width: 480px;
+    height: 518px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    overflow: hidden;
+}
+.dhead
+{
+    margin-top: 30px;
+    margin-right: 0px;
+    margin-left: 39px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    display: block;
+}
+.dhead h3{
+    color: #000;
+    display: block;
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+.dhead p{
+    color: #9B9B9B;
+    display: block;
+    font-size: 14px;
+    margin-top: -40px;
+}
+.dlogin{
+    color:#2e58ff;
+    cursor: pointer;
+    font-size: 14px;
+}
+.dbody{
+    display: block;
+    float: left;
+    font-size: 12px;
+    height: 330px;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: relative;
+    width: 400px;
+    margin-left: 40px;
+}
+.dzong1{
+    height: 64px;
+    width: 600px;  
+}
+.dzong{
+    height: 64px;
+    width: 600px;
+    margin-top: -14px;
+}
+.dzong4{
+    height: 64px;
+    width: 600px;
+    margin-top: -14px;
+}
+
+.dform p{
+    width: 400px;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 200;
+    line-height: 40px;
+   
+}
+.dpas{
+    background-image: url(./img/pwdtip-2x.png) ;
+    background-repeat: no-repeat;
+    background-position: 310px;
+    background-size: 16px 16px;
+}
+.dform input{
+    height: 35px;
+    font-weight: 400;
+    width: 330px;
+    font-size: 14px;
+   border-width: 1px;
+   border-color: rgba(244, 244, 244,0.4);
+   margin-left: 10px;
+}
+.dhid1
+{
+    height: 20px;
+    width: 284px;
+    margin-left: 55px;
+    margin-top: -15px;
+    color: red;
+    display: none;
+}
+.dhid2
+{
+    height: 20px;
+    width: 284px;
+    margin-left: 55px;
+    margin-top: -15px;
+    color: red;
+    display: none;
+}
+
+.dhid3
+{
+    height: 20px;
+    width: 284px;
+    margin-left: 55px;
+    margin-top: -15px;
+    color: red;
+    display: none;
+}
+.dhid4
+{
+    height: 20px;
+    width: 284px;
+    margin-left: 55px;
+    margin-top: -15px;
+    color: red;
+    display: none;
+}
+input::-webkit-input-placeholder {
+    /* 修改字体颜色 */
+    color: #ccc;
+    /* 修改字号，默认继承input */
+    font-size: 15px;
+    /* 设置背景色 */
+
+
+}
+#yanzheng
+{
+    height: 35px;
+    font-weight: 400;
+    width: 200px;
+    font-size: 14px;
+   border-width: 1px;
+   border-color: rgba(244, 244, 244,0.4);
+   margin-left: 10px;
+}
+#huoqu{
+    height: 40px;
+    font-weight: 400;
+    width: 120px;
+    font-size: 14px;
+   border-width: 1px;
+   border-color: rgba(244, 244, 244,0.4);
+   margin-left: 10px;
+   background-color: white;
+}
+.tijiao input
+{
+    width: 380px;
+    height: 50px;
+    background-color: rgb(189, 206, 252);
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+.xieyi 
+{
+    width: 350px;
+    height: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #666;
+    font-size: 12px;
+}
+#xuanze
+{
+    width: 10px;
+    height: 10px;
+  
+
+    color: white;
+
+}
+.xieyi a{
+    text-decoration: none;
+}
