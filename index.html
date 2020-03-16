@@ -36,36 +36,39 @@
                     <div class="dzong1">
                         <p>
                             <label>用户名</label>
-                            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;请设置用户名" autofocus>
-
+                            <input type="text" id='user' class="input" placeholder="&nbsp;&nbsp;&nbsp;请设置用户名"  autofocus>
                         </p>
-                        <div class="dhid1"></div>
+                        <div id="user-test"></div>
+                        <span id='user-dis' class="user-show">设置后不可更改，仅支持中英文、数字和下划线，且不能为纯数字</span>
                     </div>
                     <div class="dzong">
                         <p>
                             <label>手机号</label>
-                            <input type="text" placeholder="&nbsp;&nbsp;&nbsp;可用于登录和找回密码">
+                            <input type="text" id='phone'  class="input" placeholder="&nbsp;&nbsp;&nbsp;可用于登录和找回密码">
                         </p>
-                        <div class="dhid2"></div>
+                        <div id="phone-test"></div>
                     </div>
                     <div class="dzong">
                         <p>
                             <label>密&nbsp;&nbsp;&nbsp;码</label>
-                            <input type="password" placeholder="&nbsp;&nbsp;&nbsp;请设置登录密码" class="dpas">
+                            <input type="password" id="pas"  class="dpas" placeholder="&nbsp;&nbsp;&nbsp;请设置登录密码" >
                         </p>
-                        <div class="dhid3"></div>
+                        <div id="pas-test"></div>
+                        <span id="hover" class="hid">
+                            长度为8~14个字符<br> 字母/数字以及标点符号至少包含2种<br> 不允许有空格、中文
+                        </span>
                     </div>
 
                     <div class="dzong4">
                         <p>
                             <label>验证码</label>
-                            <input id="yanzheng" type="text" placeholder="&nbsp;&nbsp;&nbsp;请输入验证码">
-                            <input id="huoqu" type="button" value='获取验证码'>
+                            <input id="yanzheng" type="text"   placeholder="&nbsp;&nbsp;&nbsp;请输入验证码">
+                            <input id="huoqu" type="button"  value='获取验证码'>
                         </p>
-                        <div class="dhid4"></div>
+                        <div id="yanzheng-test"></div>
                     </div>
-                    <div class="tijiao">
-                        <input type="submit" value="注册"> 
+                    <div >
+                        <input type="submit" value="注册" id="submit" class="tijiao"> 
                     </div>
                     <div class="xieyi">
                         <input id='xuanze' type="checkbox">
@@ -78,4 +81,8 @@
         </div>
     </div>
 </body>
+<!-- <script src='//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js'></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src='./main.js'></script> 
 </html>
