@@ -12,16 +12,16 @@ module.exports=function(grunt){
   }
   },
   cssmin:{
-    '.layout.css':'./source/layout.css'
+    './layout.css':'./source/layout.css'
   },
   uglify:{
-     'main.js':'./source/main.js'
+     './main.js':'./source/main.js'
   },
   imagemin:{
     files:{
       expand:true,
-      src:['img/*.{png.jpg,gif}'],
-      dest:'img/'
+      src:['./source/img/*.{png.jpg,gif}'],
+      dest:'./img/'
     }
   }
   });
