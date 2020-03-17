@@ -80,8 +80,13 @@ $(function () {
             $user.attr("autofocus", true)
         }
         else {
-            alert('注册成功！')
-            return;
+          if (!test('#user') || !test('#phone') || !test('#pas') || !test('#yanzheng')) {
+                     alert('您输入的信息有误，请重新输入')
+              
+          }else{
+                    alert('注册成功！')
+              
+          }
         }
     })
 
