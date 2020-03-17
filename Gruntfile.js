@@ -8,20 +8,20 @@ module.exports=function(grunt){
       },
   files:{
     src:'./index.html',
-    dest:'yasuo/index.html'
+    dest:'./index.html'
   }
   },
   cssmin:{
-    'yasuo/layout.css':'layout.css'
+    'layout.css':'layout.css'
   },
   uglify:{
-     'yasuo/main.js':'main.js'
+     'main.js':'main.js'
   },
   imagemin:{
     files:{
       expand:true,
       src:['img/*.{png.jpg,gif}'],
-      dest:'yasuo/img/'
+      dest:'img/'
     }
   }
   });
