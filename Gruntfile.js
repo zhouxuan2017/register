@@ -7,15 +7,15 @@ module.exports=function(grunt){
         preserveLineBreaks:false
       },
   files:{
-    src:'./index.html',
+    src:'./source/index.html',
     dest:'./index.html'
   }
   },
   cssmin:{
-    'layout.css':'layout.css'
+    '.layout.css':'./source/layout.css'
   },
   uglify:{
-     'main.js':'main.js'
+     'main.js':'./source/main.js'
   },
   imagemin:{
     files:{
