@@ -73,21 +73,25 @@ $(function () {
     })
 
     //点击注册后进行验证
-    $submit.click(function () {
+    $('form').submit(function (e) {
+   
         if (!isnull('#user') || !isnull('#phone') || !isnull('#pas') || !isnull('#yanzheng')) {
+          e.preventDefault();
             $userDis.removeClass('user-d')
             $userDis.addClass('user-show')
             $user.attr("autofocus", true)
-            alert('您输入的信息有误，请重新输入！')
+            alert('您填入的信息不完善，请重新填！')
         }
         else {
           if(!test('#user')||!test('#phone')||!test('#pas')||!test('#yanzheng'))
            {
+             e.preventDefault();
                  alert('您输入的信息有误，请重新输入！')
             }
            else{
                 alert('注册成功！')
-              }
+              
+                            }
 
           }
            
